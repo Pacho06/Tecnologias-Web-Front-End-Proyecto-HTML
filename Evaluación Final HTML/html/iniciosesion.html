@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="2utf-8">
+        <meta name="viewport" content="width=divice-width,user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Inicio de Sesion</title>
+    </head>
+    <body>
+        <svg>
+            <image xlink:href="../img/Logo.svg" width="500px" height="380px" x="1px" y="1px"></image>
+        </svg>
+        <h2>TuServicio.com</h2>
+        <!---Url de navegación entre paginas-->
+        <header id="url">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./contactos.html">Contáctenos</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+            </ul>
+        </header>
+
+        <h2>Iniciar Sesión</h2>
+        <!---Formulario de inicio de sesión-->
+        <form autocomplete="on" name="iniciosesion">
+            <fieldset>
+                <legend>Credenciales</legend>
+                <p>
+                    <label for="email">Email*: </label>
+                    <br />
+                    <input type="text" name="email" placeholder="Ej: nextu@gmail.com" required />
+                </p>
+                <p>
+                    <label for="password">Contraseña*: </label>
+                    <br />
+                    <input type="text" name="password" required />
+                </p>
+                <p>
+                    <input type="submit" value="Continuar" />
+                </p>
+            </fieldset>
+        </form>
+        <!--Pie de pagina-->
+        <footer>
+            <hr />
+            <p>Pie de página: "Derechos Reservados"</p>
+        </footer>
+    </body>
+</html>

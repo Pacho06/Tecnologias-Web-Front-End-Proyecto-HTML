@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="2utf-8">
+        <meta name="viewport" content="width=divice-width,user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Registro</title>
+    </head>
+    <body>
+        <svg>
+            <image xlink:href="../img/Logo.svg" width="500px" height="380px" x="1px" y="1px"></image>
+        </svg>
+        <h2>TuServicio.com</h2>
+        <!---Url de navegación entre paginas-->
+        <header id="url">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./contactos.html">Contáctenos</a></li>
+                <li><a href="./iniciosesion.html">Inicio de Sesión</a></li>
+            </ul>
+        </header>
+        <hr>
+        <h2>Registro</h2>
+        <!---Formulario de registro para usuarios nuevos-->
+        <form autocomplete="on" name="usuario">
+            <fieldset>
+                <legend>Nuevo usuario</legend>
+                <p>
+                    <label for="email">Email*: </label>
+                    <br />
+                    <input type="text" name="email" placeholder="Ej: nextu@gmail.com" required />
+                </p>
+                <p>
+                    <label for="password">Contraseña*: </label>
+                    <br />
+                    <input type="text" name="password" required />
+                </p>
+                <p>
+                    <label for="password">Confirmar Contraseña*: </label>
+                    <br />
+                    <input type="text" name="Confirmarpassword" required />
+                </p>
+                <p>
+                    <label for="via">Donde nos vio: </label>
+                    <br>
+                    <input type="radio" name="via">Google
+                    <br>
+                    <input type="radio" name="via"> Otros
+                </p>
+                <p>
+                    <label for="comentario" required>Comentario*</label><br />
+                    <textarea name="comentario" cols="30" rows="10" required></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="terminos" id="terminos" required />
+                    <label for="terminos">Acepto términos y condiciones*</label><br />
+                </p>
+                <p>
+                    <input type="submit" value="Continuar" />
+                </p>
+            </fieldset>
+        </form>
+        <!--Pie de pagina-->
+        <footer>
+            <hr />
+            <p>Pie de página: "Derechos Reservados"</p>
+        </footer>
+        </body>
+</html>
